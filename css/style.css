@@ -1,4 +1,42 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #dadada;
+  background-color: #ffffff;
   font-size: 10px;
+}
+
+.viewport {
+  min-width: 575px;
+}
+
+.container {
+  background-color: #dadada;
+  width: 70%;
+  margin: 0 auto;
+}
+
+img.Baku-image {
+  background-image: url(../images/baku.jpg);
+  width: 100%;
+  height: auto;
+}
+
+img.London-image {
+  background-image: url(../images/london.png);
+  width: 100%;
+  height: auto;
+}
+
+img.Madrid-image {
+  background-image: url(../images/madrid.jpg);
+  width: 100%;
+  height: auto;
+}
+
+img.Rome-image {
+  background-image: url(../images/rome.jpg);
+  width: 100%;
+  height: auto;
 }
