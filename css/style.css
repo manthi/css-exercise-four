@@ -7,36 +7,75 @@ body {
   font-size: 10px;
 }
 
-.viewport {
-  min-width: 575px;
+h1 {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  margin-left: 25%;
+  padding-bottom: 4%
 }
 
 .container {
-  background-color: #dadada;
-  width: 70%;
-  margin: 0 auto;
+  font-size: 1.5em;
+  background-color: #DFDFDF;
+  /* margin-top: 40px; */
+  padding-top: 5%;
 }
 
-img.Baku-image {
-  background-image: url(../images/baku.jpg);
-  width: 100%;
-  height: auto;
+.preview h1 {
+  font-size: 1.5em;
+  font-family: serif;
+  text-transform: none;
+  margin: 5%;
+  margin-top: 1%;
+  height: 30%;
+  padding-top: 10%;
+  padding-left: 10%;
 }
 
-img.London-image {
-  background-image: url(../images/london.png);
-  width: 100%;
-  height: auto;
+.baku {
+  background-image: url("../images/baku.jpg");
+  background-size: contain no-repeat;
 }
 
-img.Madrid-image {
-  background-image: url(../images/madrid.jpg);
-  width: 100%;
-  height: auto;
+.london {
+  background-image: url("../images/london.png");
+  background-size: cover;
 }
 
-img.Rome-image {
-  background-image: url(../images/rome.jpg);
-  width: 100%;
-  height: auto;
+.madrid {
+  background-image: url("../images/madrid.jpg");
+  background-size: cover;
 }
+
+.rome {
+  background-image: url("../images/rome.jpg");
+  background-size: cover;
+}
+
+@media screen and (min-width: 575px){
+  .preview {
+    margin: 1%;
+    width: 48%;
+    float: left;
+  }
+
+  .container {
+    background-color: #DFDFDF;
+  }
+
+  h1 {
+    font-size: 1.3em;
+    margin-left: 35%;
+    padding-bottom: 5%;
+  }
+
+@media screen and (min-width: 991px){
+  .preview {
+    width: 23%;
+  }
+
+  h1 {
+    font-size: 2em;
+    padding-bottom: 5%;
+    margin-left: 40%;
+  }
